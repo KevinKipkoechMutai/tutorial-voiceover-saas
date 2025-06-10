@@ -5,7 +5,7 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div>
+    <main>
       <h1 className='text-2xl'>Popular Companions</h1>
       <section className='home-section'>
         <CompanionCard
@@ -37,7 +37,7 @@ const Page = () => {
         <CompanionsList/>
         <CTA/>
       </section>
-    </div>
+    </main>
   )
 }
 
